@@ -1,4 +1,4 @@
-// source : 
+// source : https://usaco.org/index.php?page=viewproblem2&cpid=861
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,7 +26,18 @@ void setIO(string name = "") {
 
 }
 
+vector<vector<pii>> adj;
+
 int main(){
   
+  int n, m, k;
+  cin >> n >> m >> k;
+  adj.resize(n);
+
+  int u, v, t;
+  for(int i = 0; i < m; i++){
+    cin >> u >> v >> t;
+    
+  }
   return 0;
 }
